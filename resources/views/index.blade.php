@@ -140,20 +140,22 @@
                     </nav>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            {!! $knockout[0]->instruction !!}
+                            {!! $knockout[0]->instruction  !!}
                         </div>
                         <div class="carousel-item">
                             {!! $knockout[1]->instruction !!}
                         </div>
-                        <div class="carousel-item">
+                         {{--
+                         <div class="carousel-item">
                             {!! $knockout[2]->instruction !!}
-                        </div>
+                        </div> 
+                        
                         <div class="carousel-item">
                             {!! $knockout[3]->instruction !!}
                         </div>
                         <div class="carousel-item">
                             {!! $knockout[4]->instruction !!}
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
@@ -161,8 +163,8 @@
             </div>
             <div class="result-code">
                 Output
-                <div id="result">
-                </div>
+                <iframe id="result">
+                </iframe>
             </div>
 
         </div>
@@ -189,7 +191,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"
     integrity="sha512-BkBgWiL0N/EFIbLZYGTgbksKG5bS6PtwnWvVk3gccv+KhtK/4wkLxCRGh+kelKiXx7Ey4jfTabLg3AEIPC7ENA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js"></script>
+    <script src="script.js"></script>   
 </body>
 
 </html>

@@ -22,6 +22,7 @@ class knockoutController extends Controller
     public function index()
     {
         $knockout = DB::select('select * from instruction');
+
         return view('index', ['knockout' => $knockout]);
     }
     public function index2()
